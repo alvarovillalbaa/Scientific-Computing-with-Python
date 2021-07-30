@@ -57,3 +57,10 @@ def arithmetic_arranger(problems, solve = False):
     else:
       string = first_number + '\n' + second_number + '\n' + lines
     return string
+
+  
+from arithmetic_arranger import arithmetic_arranger
+from unittest import main
+
+
+print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
